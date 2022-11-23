@@ -3,7 +3,7 @@ import Content from "../components/Content";
 import Layout from "../components/Layout";
 import Portfolio from "../components/Portfolio";
 
-export default function Home() {
+export default function Home({ isConnected }) {
     return (
         <Layout>
             <Head>
